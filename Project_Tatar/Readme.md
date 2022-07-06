@@ -191,7 +191,7 @@ Orginal Settings can be listed as follows :
 
 Explain your code & directory structure and how other people can run it.
 
-Due to reasons listed at Section 2 I could not complete the project. But I obtained the solutions for Random sampling techiques for listed experimental setup.
+Due to reasons listed at Section 2 I could not complete the project. 
 
 ## 3.3. Results
 
