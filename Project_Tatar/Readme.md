@@ -214,4 +214,6 @@ Subhankar Banerjee, Shayok Chakraborty
 
 # Contact
 
-@TODO: Provide your names & email addresses and any other info with which people can contact you.
+Provide your names & email addresses and any other info with which people can contact you.
+Umutcan , Utatar4@gamil.com. If anybody who interested in this article and it's code implmentation, I will be very appreciated to receive any help and collabaration.
+Thank you in advance.
