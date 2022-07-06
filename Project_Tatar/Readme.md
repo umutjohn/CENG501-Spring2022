@@ -191,7 +191,7 @@ Orginal Settings can be listed as follows :
 
 Explain your code & directory structure and how other people can run it.
 
-Due to reasons listed at Section 2 I could not complete the project. 
+Due to reasons listed at Section 2, I could not complete the project.
 
 ## 3.3. Results
 
