@@ -168,7 +168,7 @@ Parts related to how to solve ILP problem, corresponds the 3th step of the algho
         * ILP solver part with 2 constarint(one of them is related to LP relaxation, other one is related to pre dtermined batch size(k)) plus binary constarint 
   * m_i_list.append(m_i)
 
-Note: I dont want add extra file for this uncomplete code to mislead anybody who reads to this readme file. This is my first entry in Github so I am sorry for inconvenience.  
+Note: I dont want add extra file for this uncomplete code to mislead anybody who reads to this readme file. This is my first entry in Github so I am sorry for inconvenience, if there any.  
 
 # 3. Experiments and results
 
