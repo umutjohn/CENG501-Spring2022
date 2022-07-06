@@ -109,7 +109,7 @@ Explain the parts that were not clearly explained in the original paper and how 
 
 Parts related to how to solve ILP problem, corresponds the 3th step of the alghortim, was not clearly stated. Authors used  off-the shelf ILP solver to solve this problem. I extensively researched off the shelf ILP solver like LPSolve IDE or Python library like Pulp, but I did not utilize this ILP solver into this problem. So I decided to solve in house python code. But, I did not finish this submodule due to fallowing reasons : 
 
-* 1 - Computations of kernel matrix (Phi1) has quadratic complexity and can be very challenging for large data set in terms of computational effort.
+* 1 - Computations of kernel matrix (Phi1) has quadratic complexity and can be very challenging for large data set in terms of computational effort.At each iteration Phi1 matrix is computed.
 * 2 - I could not find which off the shelf ILP solver was implmented in the Article. 
 * 3 - I could not implement Step 3 in the alghortim due to conditional constraint and dynamic nature of the ILP problem. For sake of completness I would like to present  my uncomplete code in free format at this section such that: 
 
@@ -191,7 +191,7 @@ Orginal Settings can be listed as follows :
 
 Explain your code & directory structure and how other people can run it.
 
-Due to reasons listed at Section 2 I could not complete the project. But I obtained the solutions for Random sampling techiques with listed experimental setup.
+Due to reasons listed at Section 2 I could not complete the project. But I obtained the solutions for Random sampling techiques for listed experimental setup.
 
 ## 3.3. Results
 
@@ -199,11 +199,18 @@ Due to reasons listed at Section 2 I could not complete the project. But I obtai
 
 # 4. Conclusion
 
-@TODO: Discuss the paper in relation to the results in the paper and your results.
+Discuss the paper in relation to the results in the paper and your results.
+
+I could not obtain the results but article offers a very elegant way to select and sequence mini batches to train the model. Generalization performance of the network computed by the test loss and test error metrics on the CIFAR 10,MNIST and SVNH data sets. Propes alghoritm always give equal or better performance than Random Sampling. The submodular selection methods, performs better on the SVNH data set but it is not consistent across different data set.DPP methods, on the other hand, perform better ın CIFAR 10 data set but for other data set gives slower decrease in test loss and error. 
 
 # 5. References
 
-@TODO: Provide your references here.
+Provide your references here.
+
+Deterministic Mini-batch Sequencing for Training Deep Neural Networks
+Subhankar Banerjee, Shayok Chakraborty
+
+
 
 # Contact
 
